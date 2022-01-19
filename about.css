@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+background: rgba(32, 6, 56, 0.85); 
+color:#fff;
+text-align: center;
+}
+h1{
+    
+padding: 40px 0;
+font-size: 50px;
+background-image: linear-gradient(to top,rgba(32, 6, 56, 0.85),rgba(146, 119, 140, 0.822));
+}
+.task{
+    width: 70vw;
+    margin:20px  auto;
+  
+padding:10px 0;
+    background: rgba(210, 179, 231, 0.2);
+box-shadow: 0 8px 32px 0 rgba(48, 3, 61, 0.37);
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+font-size: 25px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-bottom: 1px solid white;
+display: flex;
+justify-content: space-between;
+}
+h2{
+    margin: 40px auto;
+}
+input{
+    width: 30vw;
+    padding: 10px;
+    text-align: center;
+   border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-star{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    opacity: .4;
+}
+.icon-star:hover{
+    font-size: 35px;
+    color:orange;
+    opacity: 1;
+    cursor: pointer;
+    transition: .2s;
+}
+.icon-trash{
+    font-size: 30px;
+}
+.icon-trash:hover{
+    font-size: 35px;
+    color:rgb(116, 192, 206);
+    opacity: 1;
+    cursor: pointer;
+    transition: .2s;
+}
+.icon-angry2{
+    font-size: 30px;
+    margin-right: 20px;
+margin-left: 10px;
+}
+.icon-angry2:hover{
+    font-size: 35px;
+    color:yellow;
+opacity: 1;
+    cursor: pointer;
+    transition: .2s;
+}
+.icon-heart{
+    font-size: 30px;
+    margin-right: 20px;
+margin-left: 10px;
+color:red;
+}
+.icon-heart:hover{
+    font-size: 35px;
+
+opacity: 1;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.motion{
+    margin-top: 10px;
+}
+button{
+  all: unset;
+}
+.icon-upload{
+    position: relative;
+    top:10px;
+    margin-left: 10px;
+font-size: 35px;
+}
+.icon-upload:hover{
+   color:rgb(52, 232, 245);
+    font-size: 40px;
+    transition: .2s;
+}
+.dn{
+    display: none;
+}
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+.colored{
+    color:orange;
+    opacity: 1;
+}
